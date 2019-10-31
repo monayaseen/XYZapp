@@ -1,0 +1,25 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/action_up"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/up"
+        android:src="@drawable/ic_arrow_back"
+        app:backgroundTint="@android:color/transparent"
+        android:background="@android:color/transparent"
+        />
+</android.support.design.widget.CoordinatorLayout>
